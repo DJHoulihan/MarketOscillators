@@ -39,3 +39,11 @@ After smoothing, I take the logarithm of the prices, $log(P_i(t))$, and subtract
 3. The symmetry of $K$. Intuitively, it can make sense that one market can have a heavy dependence on another but not the reverse - leading to a descrepancy in $K_{ij}$ vs $K_{ji}$. But should it be somewhat symmetric or symmetric in general? Can a measure of the symmetry tell us anything? This builds off of the previous question (i.e. are the values of $K$ actually meaningful)?
 
 4. How can I better probe synchronization for specific oscillators, not just the system as a whole (done with $r$ parameter)? The values $K_{ij}$ and $K_{ji}$ can point to how coupled they are, but is there another way that can demonstrate coupling. In my 'UnderstandingOscillators' notebook, I did some bifurcation plots, but that was with homogeneous K (not a matrix), can i do something similar if K is a matrix?
+
+### Images/Highlights
+
+![Alt text](images/marketmodel.png)
+
+![Alt text](images/rparam.png)
+
+
